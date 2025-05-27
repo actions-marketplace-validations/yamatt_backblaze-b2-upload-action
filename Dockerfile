@@ -1,2 +1,2 @@
-FROM backblazeit/b2:4.3.0
+FROM backblazeit/b2:4.3.2
 
