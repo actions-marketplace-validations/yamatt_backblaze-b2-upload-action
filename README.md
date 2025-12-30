@@ -1,10 +1,4 @@
-# Upload a file to B2
-
-<p align="center">
-
-![Test Workflow](https://github.com/github/docs/actions/workflows/test.yml/badge.svg)
-
-</p>
+# Upload a file to B2 [![Test](https://github.com/yamatt/backblaze-b2-upload-action/actions/workflows/test.yml/badge.svg)](https://github.com/yamatt/backblaze-b2-upload-action/actions/workflows/test.yml)
 
 Pass in arguments to upload single files to Backblaze B2.
 
