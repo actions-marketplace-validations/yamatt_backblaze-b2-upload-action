@@ -7,8 +7,22 @@ updates:
     directory: ".github/workflows"
     schedule:
       interval: "weekly"
+    cooldown:
+      default-days: 5
+    assignees:
+      - yamatt
+    labels:
+      - dependabot
+      - docker
 
   - package-ecosystem: "docker"
     directory: "/"
     schedule:
       interval: "weekly"
+    cooldown:
+      default-days: 5
+    assignees:
+      - yamatt
+    labels:
+      - dependabot
+      - docker
