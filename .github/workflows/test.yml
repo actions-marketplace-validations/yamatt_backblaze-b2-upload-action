@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Run Hadolint
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6.0.2
       - uses: hadolint/hadolint-action@v3.1.0
         with:
           dockerfile: Dockerfile
@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Test upload
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6.0.2
       - uses: ./
         with:
           key_id: ${{ secrets.B2_KEY_ID }}
